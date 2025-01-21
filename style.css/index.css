@@ -3,7 +3,7 @@
 .quick-sand-font {
   font-family: "Quicksand", serif;
   font-optical-sizing: auto;
-
+ 
  
 }
 body{
@@ -131,6 +131,7 @@ color: rgb(1, 172, 253);
               /*     section one start     */
 
 
+
 .section-one-heading{
     
     color: rgb(0, 0, 0);
@@ -233,7 +234,9 @@ color: rgb(1, 172, 253);
     background: rgb(254, 163, 1);
 }
 
+                                        /* section one end */
 
+                                        /* section two start */
 .section-two-heading{
     display: flex;
     justify-content: center;
@@ -394,6 +397,11 @@ color: rgb(1, 172, 253);
     margin-left: 30px;
 
 }
+
+
+                                        /* section two end       */
+
+                                        
 #view-button{
     display: flex;
     flex-direction: row;
@@ -410,15 +418,77 @@ color: rgb(1, 172, 253);
     margin: 0 auto;
     margin-top: 80px;
     }
-.footer{
+.footer-conteinar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     max-width: 1440px;
     width: 1024px;
     height: 519px;
     margin: 0 auto;
+    margin-top: 50px;
     background: rgb(1, 172, 253);
+
 }
 #footer-logo{
     width: 70.34px;
     height: 81.65px;
     background: rgb(217, 217, 217);
+}
+#footer-title{
+    width: 206.11px;
+    height: 80px;
+    margin-left: 10px;
+    /* padding: 10px; */
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+}
+#footer-address{
+    display: flex;
+    align-items: center;
+}
+#footer-detail{
+    width: 399.02px;
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 35px;
+}
+#about-school{
+    width: 156.36px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.about{
+    width: 97.47px;
+    height: 25px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 500;
+    list-style: none;
+    margin-top: 10px;
+}
+#touch{
+    width: 156.36px;
+    height: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.class{
+    width: 40px;
+    height: 40px;
+    border: 4px;
 }
