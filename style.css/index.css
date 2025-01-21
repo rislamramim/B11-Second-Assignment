@@ -206,3 +206,37 @@ color: rgb(1, 172, 253);
     font-weight: 700;
     border: none;
 }
+.side-arrow-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 20px;
+}
+#left-side-button{
+    width: 60px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-family: Font Awesome 5 Free;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 30px;
+    border: none;
+    background: rgb(254, 163, 1);
+}
+#right-side-button{
+    width: 60px;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    font-family: Font Awesome 5 Free;
+    font-size: 24px;
+    font-weight: 900;
+    border-radius: 30px;
+    border: none;
+    background: rgb(254, 163, 1);
+}
+
+
+
+
+
