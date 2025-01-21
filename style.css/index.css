@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quick-sand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+}
+
+
+/* nav bar start */
+.nav-logo{
+    display: flex;
+}   
+.nav-title{
+    
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 2rem;
+    font-weight: 700;
+   margin: 20px auto;
+}
+img{
+    width: 62px;
+    height: 62px;
+    
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgb(247, 247, 247);
+}
+.nav-links{
+    display: flex;  
+}
+.nav-item{
+    list-style: none;
+    margin-right: 32px;
+}
+#home{
+    color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+}
+#about{
+    color: rgb(1, 172, 253);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#facilities{
+    color: rgb(5, 212, 223);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#admission{
+    color: rgb(93, 88, 239);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.nav-button{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px 50px;
+    background: rgb(254, 163, 1);
+    border: none;
+    border-radius: 12px;
+}
+/* nav bar ends */
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    background: rgb(247, 247, 247);
+    border: 2 px solid yellow;
+
+}
+.banner-detail{
+   margin-left: 50px;
+}
+.banner-title{
+    font-family: Quicksand;
+    font-size: 2.5rem;
+    font-weight: 600;
+    
+}
+#Empowering{
+color: rgb(254, 163, 1);
+}
+#towards-vision{
+color: rgb(1, 172, 253);
+}
+.banner-description{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.banner-button{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 12px;
+    background-color: rgb(17, 17, 17);
+}
+.banner-logo{
+    width: 468.61px;
+    height: 575px;
+}
+
+
