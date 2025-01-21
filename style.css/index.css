@@ -28,6 +28,7 @@ body{
 img{
     width: 62px;
     height: 62px;
+    margin-top: 20px;
     
 }
 .nav-bar{
@@ -81,9 +82,7 @@ img{
                 /*     nav bar ends     */
 
                 /*     banner start     */
-.banner{
-   
-}                
+               
 .banner{
     display: flex;
     align-items: center;
@@ -131,9 +130,7 @@ color: rgb(1, 172, 253);
 
               /*     section one start     */
 
-.section-one{
-    
-}
+
 .section-one-heading{
     
     color: rgb(0, 0, 0);
@@ -237,6 +234,191 @@ color: rgb(1, 172, 253);
 }
 
 
+.section-two-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.section-two-story{
+    max-width: 1440px;
+    width: 1024px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 300px);
+    gap: 20px;
+  
+}
+
+#story-one{
+    grid-row: span 2;
+    display: flex;
+    flex-direction: column;
+    
+}
+#image-one{
+    width: 540px;
+    height: 337px;
+    border-radius: 16px 16px 0px 0px;
+    background: url(),rgb(217, 217, 217);
+}
+.story-one-date{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 174.51px;
+    height: 47.93px;
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    padding: 12px;
+    margin-left: 38px;
+    margin-top: -20px;
 
 
+}
+#story-one-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 38.35px;
+    margin-left: 38px;
+    margin-top: 30px;
+}
+#story-one-detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(102, 102, 102);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 28.76px;
+    margin-left: 38px;
+    margin-top: 10px;
+}
 
+.story-image{
+    width: 291px;
+    height: 177px;
+    border-radius: 16px 16px 0px 0px;
+    background: url(),rgb(255, 255, 255);
+}
+#second-image-date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: .9rem;
+    font-weight: 500;
+    width: 136.46px;
+    height: 18.22px;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    padding: 10px;
+    margin-left: 30px;
+
+}
+
+#third-image-date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: .9rem;
+    font-weight: 500;
+    width: 136.46px;
+    height: 18.22px;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: -25px;    
+}
+#forth-image-date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: .9rem;
+    font-weight: 500;
+    width: 136.46px;
+    height: 18.22px;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: -25px;    
+}
+#fifth-image-date{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: .9rem;
+    font-weight: 500;
+    width: 136.46px;
+    height: 18.22px;
+    border-radius: 47.93px;
+    background: rgb(149, 178, 38);
+    padding: 10px;
+    margin-left: 30px;
+    margin-top: -25px;   
+}
+.story-title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 198.04px;
+    height: 47.93px;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 30px;
+
+}
+#view-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    margin: 0 auto;
+    margin-top: 80px;
+    }
+.footer{
+    max-width: 1440px;
+    width: 1024px;
+    height: 519px;
+    margin: 0 auto;
+    background: rgb(1, 172, 253);
+}
+#footer-logo{
+    width: 70.34px;
+    height: 81.65px;
+    background: rgb(217, 217, 217);
+}
